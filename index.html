@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>weatherStation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <div class="weatherOption">
                     <div class="iconWeather option">
                         <div class="weatherIcon">
-                            <img src="src/weatherIcons/cloudy.svg">
+                            <img src="src/img/weatherIcons/cloudy.svg">
                         </div>
                         <div class="weather">
                             <div class="weatherValue"></div>
@@ -29,16 +29,16 @@
                         </div>
                     </div>
                     <div class="wind option">
-                        <div class="optionImg"><img src="src/weatherIcons/wind.svg" alt="wind"></div>
+                        <div class="optionImg"><img src="src/img/weatherIcons/wind.svg" alt="wind"></div>
                         <div id="windSpeed" class="weatherValue">3</div>
                         <div id="windDirection" class="wi wi-wind">NE</div>
                     </div>
                     <div class="pressure option">
-                        <div class="optionImg"><img src="src/weatherIcons/pressure.svg" alt="wind"></div>
+                        <div class="optionImg"><img src="src/img/weatherIcons/pressure.svg" alt="wind"></div>
                         <div id="pressure" class="weatherValue">752</div>
                     </div>
                     <div class="humidity option">
-                        <div class="optionImg"><img src="src/weatherIcons/humidity.svg" alt="wind"></div>
+                        <div class="optionImg"><img src="src/img/weatherIcons/humidity.svg" alt="wind"></div>
                         <div id="humidity" class="weatherValue">39</div>
                     </div>
                 </div>
@@ -49,13 +49,13 @@
         </div>
     </div>
 </div>
-<script src="date.js"></script>
-<script src="setIcons.js"></script>
-<script src="windDirection.js"></script>
-<script src="pressure.js"></script>
-<script src="render.js"></script>
-<script src="forecast.js"></script>
-<script src="weather.js"></script>
-<script src="app.js"></script>
+<script src="src/js/date.js"></script>
+<script src="src/js/setIcons.js"></script>
+<script src="src/js/windDirection.js"></script>
+<script src="src/js/pressure.js"></script>
+<script src="src/js/render.js"></script>
+<script src="src/js/forecast.js"></script>
+<script src="src/js/weather.js"></script>
+<script src="src/js/app.js"></script>
 </body>
 </html>
